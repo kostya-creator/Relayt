@@ -67,7 +67,7 @@ const Settings = () => {
                </div>
             
                 <div className="text-[16px] mt-10 flex items-center justify-center">
-                    <p className="text-secondary-hover text-center font-light">Relayt 1.0.0 , MIT License <br/> Made with ❤️ by kostya_creator</p>
+                    <p className="text-secondary-hover text-center font-light">Relayt 0.0.3 / MIT License <br/> Made with ❤️ by kostya_creator</p>
                 </div>
             </main>
         </div>
