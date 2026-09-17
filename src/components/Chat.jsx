@@ -19,7 +19,9 @@ const Chat = ({ setIsSidebarOpen }) => {
           <span className="text-[24px] font-regular text-text">Gemini</span>
         </div>
        
-        <span className="material-symbols-outlined text-text">sync</span>
+       <button className="active:bg-secondary transition-all rounded-full h-10 w-10 flex items-center justify-center">
+          <span className="material-symbols-outlined text-text">sync</span>
+        </button>
       </header>
     
       <div className="absolute inset-0 flex justify-center items-center pointer-events-none pb-20">

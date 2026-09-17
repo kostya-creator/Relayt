@@ -1,4 +1,4 @@
-import Wlogo from "../assets/white-logo.png"
+import { Link } from 'react-router-dom'
 import { AnimatePresence, motion } from 'motion/react'
 
 const SideBar = ({isOpen, setIsSidebarOpen}) => {   
@@ -18,7 +18,7 @@ const SideBar = ({isOpen, setIsSidebarOpen}) => {
                     <header className="flex items-center justify-between">
                         <div className="text-[26px] font-semibold text-text">Relayt</div>  
                         <button onClick={() => setIsSidebarOpen(false)} className="flex justify-center items-center active:bg-secondary w-10 h-10 rounded-full transition-all">
-                            <span className="material-symbols-outlined text-text !text-[24px]">right_panel_close</span>            
+                            <span className="material-symbols-outlined text-text text-[24px]!">close</span>            
                         </button>
                     </header>
 
@@ -29,12 +29,12 @@ const SideBar = ({isOpen, setIsSidebarOpen}) => {
                     </div>
 
                     <div className="flex justify-between items-center z-15 mt-auto">
-                        <div className="bg-accent active:bg-accent-hover w-12 h-12 rounded-full flex items-center justify-center transition-all">
+                        <div onClick={() => setIsSidebarOpen(false)} className="bg-accent active:bg-accent-hover w-12 h-12 rounded-full flex items-center justify-center transition-all">
                             <span className="material-symbols-outlined text-[18px] text-text">chat_add_on</span>
                         </div>
-                        <div className="active:bg-secondary w-12 h-12 rounded-full flex items-center justify-center transition-all">
+                        <Link to="/settings" onClick={() => setIsSidebarOpen(false)} className="active:bg-secondary w-12 h-12 rounded-full flex items-center justify-center transition-all">
                             <span className="material-symbols-outlined text-[18px] text-text">settings</span>
-                        </div>
+                        </Link>
                     </div>
 
                 </div>
