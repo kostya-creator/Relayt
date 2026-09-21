@@ -6,7 +6,7 @@ const Chat = ({ setIsSidebarOpen }) => {
   const [message, setMessage] = useState ('')
 
   return (
-    <div className="min-h-screen relative w-full max-w-250 mx-auto p-5">
+    <div className="min-h-screen relative w-full max-w-200 mx-auto p-5">
 
 
       <header className="flex justify-between items-center w-full">

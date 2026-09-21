@@ -12,7 +12,7 @@ const SideBar = ({isOpen, setIsSidebarOpen}) => {
                 transition={{ duration: 0.6, ease: [0.22, 1, 0.36, 1] }}
                 className="fixed inset-0 h-screen z-10"
             >
-                <div className="w-64 h-full bg-background rounded-r-[38px] border border-border p-3 flex flex-col">
+                <div className="w-64 h-full bg-background rounded-r-[38px] border-r border-border p-3 flex flex-col">
 
                     {/*SideBar logo and top padding (Header)*/}
                     <header className="flex items-center justify-between">
