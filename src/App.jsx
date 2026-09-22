@@ -1,6 +1,6 @@
 import { useState } from "react"
 import Chat from "./components/Chat"
-import SideBar from "./components/SideBar"
+import SideBar from "./components/sidebar/SideBar"
 import Settings from "./components/settings/Settings"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
