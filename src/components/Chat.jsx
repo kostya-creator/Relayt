@@ -34,11 +34,11 @@ const Chat = ({ setIsSidebarOpen }) => {
           <div className="flex items-center justify-center text-[18px]">
             <p className="font-normal text-text">Spent: $0.00</p>
           </div>
-          <div className=" bg-secondary rounded-full flex justify-between items-center h-15 pl-3 pr-3 border border-border">          
+          <div className=" bg-background rounded-full flex justify-between items-center h-15 pl-3 pr-3 border border-border">          
               <div className="flex items-center justify-center w-full gap-5">
                 <span className="material-symbols-outlined text-text">add</span>
 
-                <input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Ask anything..." className="flex-1 min-w-0 text-[18px] bg-secondary text-center"/>
+                <input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Ask anything..." className="flex-1 min-w-0 text-[18px] bg-background text-center"/>
               
                 <AnimatePresence mode="wait">
                   {message.trim() ? (
@@ -96,11 +96,11 @@ const Chat = ({ setIsSidebarOpen }) => {
               <div className="flex items-center justify-center text-[20px]">
                 <p className="hidden font-normal text-text">Spent: $0.00</p>
               </div>
-              <div className=" bg-secondary rounded-full flex justify-between items-center h-15 px-2.5 border border-border w-full">          
+              <div className=" bg-background rounded-full flex justify-between items-center h-15 px-2.5 border border-border w-full">          
                   <div className="flex items-center justify-center w-full gap-2">
                     <span className="material-symbols-outlined text-text">add</span>
 
-                    <input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Ask anything..." className="bg-secondary flex-1 min-w-0 text-[18px] text-left translate-x-2"/>
+                    <input value={message} onChange={(e) => setMessage(e.target.value)} placeholder="Ask anything..." className="bg-background flex-1 min-w-0 text-[18px] text-left translate-x-2"/>
 
                     <button className="flex items-center justify-center hover:bg-secondary-hover h-10 w-26 rounded-full gap-1">
                       <span className="text-[20px] font-regular text-text">Gemini</span> 
