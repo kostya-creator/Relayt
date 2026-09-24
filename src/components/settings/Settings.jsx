@@ -25,12 +25,12 @@ const Settings = () => {
                             <p className="text-[16px] text-text flex items-end justify-center font-normal">General</p>
                         </div>
 
-                        <div className="flex flex-col gap-1 border border-text rounded-[25px] p-1">
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">api</span>Api & Speed Dial</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">for_you</span>Personalization</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">browse</span>Web Search</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">language</span>Language</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">book_ribbon</span>Memory</button>
+                        <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">api</span>Api & Speed Dial</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">for_you</span>Personalization</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">browse</span>Web Search</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">language</span>Language</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">book_ribbon</span>Memory</button>
                         </div>
                    </div>
 
@@ -39,9 +39,9 @@ const Settings = () => {
                             <p className="text-[16px] text-text flex items-end justify-center font-normal">Apperance</p>
                         </div>
 
-                        <div className="flex flex-col gap-1 border border-text rounded-[25px] p-1">
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">light_mode</span>Theme & Сorrection</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">palette</span>Accent Color</button>
+                        <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">light_mode</span>Theme & Сorrection</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">palette</span>Accent Color</button>
                         </div>
                    </div>
 
@@ -50,9 +50,9 @@ const Settings = () => {
                             <p className="text-[16px] text-text flex items-end justify-center font-normal">Sync</p>
                         </div>
 
-                        <div className="flex flex-col gap-1 border border-text rounded-[25px] p-1">
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">database_upload</span>Your Own Server</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">cloud_sync</span>WebDaw</button>
+                        <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">database_upload</span>Your Own Server</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">cloud_sync</span>WebDaw</button>
                         </div>
                    </div>
 
@@ -61,17 +61,17 @@ const Settings = () => {
                             <p className="text-[16px] text-text flex items-end justify-center font-normal">More</p>
                         </div>
 
-                        <div className="flex flex-col gap-1 border border-text rounded-[25px] p-1">
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">update</span>Check For Updates</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">bug_report</span>Report a Bug</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">volunteer_activism</span>Donate</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><img src= {GithubIcon} className="h-7 w-7" />Github</button>
-                            <button className=" text-[18px] gap-2 w-full font-regular bg-secondary rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary-hover transition-all "><span className="material-symbols-outlined text-[24px]!">info</span>About</button>
+                        <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">update</span>Check For Updates</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">bug_report</span>Report a Bug</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">volunteer_activism</span>Donate</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><img src= {GithubIcon} className="h-7 w-7" />Github</button>
+                            <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">info</span>About</button>
                         </div>
                    </div>
             
                     <div className="text-[16px] mt-10 flex items-center justify-center">
-                        <p className="text-text text-center font-normal">Relayt 0.0.3 / MIT License <br/> Made with ❤️ by @kostya_creator</p>
+                        <p className="text-text text-center font-normal">Relayt 0.0.4 / MIT License <br/> Made with ❤️ by @kostya_creator</p>
                     </div>
                 </main>
             </div>
@@ -85,7 +85,7 @@ const Settings = () => {
                     </div>
                 </div>
 
-                <div className="grid grid-cols-2 gap-8 m-10 w-fit mx-auto">
+                <div className="grid grid-cols-2 gap-8 w-fit mx-auto mt-8">
 
                     <div className="group relative bg-background h-80 w-160 rounded-3xl border border-border hover:bg-secondary-hover hover:scale-105 transition-all cursor-pointer duration-300">
 
@@ -168,10 +168,15 @@ const Settings = () => {
 
                             <div className="pl-8">
                                 <p className="text-text font-normal text-[20px]">Report a Bug, Donate, Github and About</p>
-                            </div>
-                        </div>
+                            </div>                            
+                        </div>                        
                     </div>
                 </div>
+
+                <div className="text-[16px] flex items-end mt-12 justify-center">
+                    <p className="text-text text-center font-normal">Relayt 0.0.4 / MIT License / Made with ❤️ by @kostya_creator</p>
+                </div>
+
             </div>
         </div>
 
