@@ -1,14 +1,16 @@
 import { useEffect, useState } from "react"
 
 import MobileSideBar from "./MobileSideBar"
+import TabletSideBar from "./TabletSideBar"
 import DesktopSideBar from "./DesktopSideBar"
 
+
 const SideBar = ({ isOpen, setIsSidebarOpen }) => {
-    const [isDesktop, setIsDesktop] = useState(window.innerWidth >= 1024)
+    const [width, setWidth] = useState(window.innerWidth)
 
     useEffect(() => {
         const handleResize = () => {
-            setIsDesktop(window.innerWidth >= 1024)
+            setWidth(window.innerWidth)
         }
 
         window.addEventListener("resize", handleResize)
@@ -20,8 +22,13 @@ const SideBar = ({ isOpen, setIsSidebarOpen }) => {
 
     return (
         <div>
-            {isDesktop ? (
+            {width >= 1024 ? (
                 <DesktopSideBar
+                    isOpen={isOpen}
+                    setIsSidebarOpen={setIsSidebarOpen}
+                />
+            ) : width >= 768 ? (
+                <TabletSideBar
                     isOpen={isOpen}
                     setIsSidebarOpen={setIsSidebarOpen}
                 />
