@@ -69,7 +69,7 @@ const Settings = () => {
                         </div>
 
                         <div className="text-[16px] mt-10 flex items-center justify-center">
-                            <p className="text-text text-center font-normal">Relayt 0.0.5/ MIT License <br/> Made with ❤️ by @kostya_creator</p>
+                            <p className="text-text text-center font-normal">Relayt 0.0.6 / MIT License <br/> Made with ❤️ by @kostya_creator</p>
                         </div>
                     </main>
                 </div>
@@ -191,4 +191,5 @@ const Settings = () => {
         </div>
     )
 }
+
 export default Settings
