@@ -172,7 +172,7 @@ const Settings = () => {
 
                             <div className="pl-5 xl:pl-8">
                             <p className="text-text font-normal text-[18px] xl:text-[20px]">
-                                Report a Bug, Donate, Github and About
+                                Report a Bug, Donate and GitHub
                             </p>
                             </div>
                         </div>
