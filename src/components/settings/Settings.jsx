@@ -39,7 +39,7 @@ const Settings = () => {
                             </div>
 
                             <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">light_mode</span>Theme & Сorrection</button>
+                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">light_mode</span>Theme & Customization</button>
                                 <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">palette</span>Accent Color</button>
                             </div>
                         </div>
@@ -51,7 +51,7 @@ const Settings = () => {
 
                             <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
                                 <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">database_upload</span>Your Own Server</button>
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">cloud_sync</span>WebDaw</button>
+                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">cloud_sync</span>WebDAV</button>
                             </div>
                         </div>
 
@@ -129,7 +129,7 @@ const Settings = () => {
 
                             <div className="pl-5 xl:pl-8">
                             <p className="text-text font-normal text-[18px] xl:text-[20px]">
-                                Webdaw and Your Own Server
+                                WebDAV and Your Own Server
                             </p>
                             </div>
                         </div>
