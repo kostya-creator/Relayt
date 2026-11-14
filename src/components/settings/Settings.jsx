@@ -51,7 +51,7 @@ const Settings = () => {
 
                             <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
                                 <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">database_upload</span>Your Own Server</button>
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">cloud_sync</span>WebDAV</button>
+                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">cloud_sync</span>Webdav</button>
                             </div>
                         </div>
 
