@@ -2,6 +2,7 @@ import { useNavigate } from "react-router-dom"
 import GithubIcon  from "../../assets/github-icon.png"
 
 const Settings = () => {
+    
     const navigate = useNavigate()
 
     return (
@@ -68,7 +69,7 @@ const Settings = () => {
                         </div>
 
                         <div className="text-[16px] mt-10 flex items-center justify-center">
-                            <p className="text-text text-center font-normal">Relayt 0.0.6 / MIT License <br/> Made with ❤️ by @kostya_creator</p>
+                            <p className="text-text text-center font-normal">Relayt 0.0.61 / MIT License <br/> Made with ❤️ by @kostya_creator</p>
                         </div>
                     </main>
                 </div>
@@ -182,7 +183,7 @@ const Settings = () => {
 
                     <div className="text-[16px] flex items-end mb-3 justify-center">
                     <p className="text-text text-center font-normal">
-                        Relayt 0.0.6 / MIT License / Made with ❤️ by @kostya_creator
+                        Relayt 0.0.61 / MIT License / Made with ❤️ by @kostya_creator
                     </p>
                     </div>
                 </div>
