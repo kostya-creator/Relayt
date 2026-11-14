@@ -1,9 +1,11 @@
 # 💻 Relayt
 An open-source client for your AI API, built with React, Tailwind CSS, and Vite. The website is hosted on Vercel, while the Android application is powered by Capacitor
 
-### [site](https://relayt-eight.vercel.app/)
+---
+### [website](https://relayt-eight.vercel.app/)
 
 ### android app *Coming soon*
+---
 
 ## 🔒 Security
 Relayt does not collect any user data, including API keys, chats, or conversations with AI models
