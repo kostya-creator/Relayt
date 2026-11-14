@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom"
-import GithubIcon  from "../assets/github-icon.png"
+import GithubIcon  from "../../assets/github-icon.png"
 
 const Settings = () => {
     const navigate = useNavigate()
@@ -60,11 +60,10 @@ const Settings = () => {
                             </div>
 
                             <div className="flex flex-col gap-1 border border-border rounded-[25px] p-1">
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">update</span>Check For Updates</button>
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">bug_report</span>Report a Bug</button>
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">volunteer_activism</span>Donate</button>
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><img src= {GithubIcon} className="h-7 w-7" />Github</button>
-                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">info</span>About</button>
+                                <button className=" text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 items-center justify-center active:bg-secondary transition-all hidden"><span className="material-symbols-outlined text-[24px]!">update</span>Check For Updates</button>
+                                <a href="https://github.com/kostya-creator/Relayt/issues" className="text-text text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-t-[20px] rounded-b-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">bug_report</span>Report a Bug</a>
+                                <a href="https://donatty.com/Relayt" className="text-text text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-md h-12 flex items-center justify-center active:bg-secondary transition-all "><span className="material-symbols-outlined text-[24px]!">volunteer_activism</span>Donate</a>
+                                <a href='https://github.com/kostya-creator/Relayt' className="text-text text-[18px] gap-2 w-full font-regular bg-background border border-border rounded-b-[20px] rounded-t-md h-12 flex items-center justify-center active:bg-secondary transition-all"><img src= {GithubIcon} className="h-7 w-7" />Github</a>
                             </div>
                         </div>
 

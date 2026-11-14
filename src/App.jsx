@@ -1,7 +1,7 @@
 import { useState } from "react"
 import Chat from "./components/Chat"
 import SideBar from "./components/SideBar"
-import Settings from "./components/Settings"
+import Settings from "./components/settings/Settings"
 import { BrowserRouter, Route, Routes } from "react-router-dom"
 
 const App = () => {
