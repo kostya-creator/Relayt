@@ -1,9 +1,11 @@
-# Relayt
----
-Relayt is an open-source client for your AI API, built with React, Tailwind CSS, and Vite. The website is hosted on Vercel, while the Android application is powered by Capacitor.
+# 💻 Relayt
+An open-source client for your AI API, built with React, Tailwind CSS, and Vite. The website is hosted on Vercel, while the Android application is powered by Capacitor.
 
-## Security
----
+[site](https://relayt-eight.vercel.app/)
+
+android app *Coming soon*
+
+## 🔒 Security
 Relayt does not collect any user data, including API keys, chats, or conversations with AI models.
 
 All your data is stored exclusively in your own environment:
@@ -14,8 +16,7 @@ All your data is stored exclusively in your own environment:
 - In your cloud storage (WebDAV).
 - In Supabase (if you have configured any of these services for synchronization).
 
-## Instructions
----
+## 📋 Instructions
 ### 1. How to connect an AI model?
 
 - Go to `Settings → API & Speed Dial`.
@@ -38,16 +39,14 @@ You can add up to 5 models to Speed Dial and switch between them directly in you
 
 ### 3. How to set up synchronization via WebDAV or VPS?
 
-*Coming soon.*
+*Coming soon*
 
 This section is currently under development.
 
-### 4. Contributing
----
+### 4. 🤝 Contributing
 Contributions are always welcome!
 
 Feel free to submit issues, suggestions, and pull requests.
 
-### 5. License
----
+### 5. 📄 License
 MIT License
